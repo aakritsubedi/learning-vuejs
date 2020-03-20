@@ -16,7 +16,3 @@
 **Using GUI** 
 - `vue ui` (The above command will open a browser window with a GUI that guides you through the project creation process.)  
 [...ReadMore](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui)  
-
-
-
-
