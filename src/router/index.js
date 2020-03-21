@@ -7,7 +7,7 @@ import CreateVueProject from "@/views/0CreatingVueProject.vue";
 import DataBinding from "@/views/2DataBinding.vue";
 import EventsInVue from "@/views/3Events.vue";
 import TwoWayDataBinding from "@/views/4TwoWayDataBindingDataBinding.vue";
-
+import ComputedProperties from "@/views/5ComputedProperties.vue";
 
 Vue.use(Router);
 
@@ -40,6 +40,11 @@ const routes = [
     path: "/basic/twoWayDataBinding",
     name: "TwoWayDataBinding",
     component: TwoWayDataBinding
+  },
+  {
+    path: "/basic/computedProperties",
+    name: "ComputedProperties",
+    component: ComputedProperties
   }
 ];
 
