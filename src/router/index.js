@@ -8,6 +8,7 @@ import DataBinding from "@/views/2DataBinding.vue";
 import EventsInVue from "@/views/3Events.vue";
 import TwoWayDataBinding from "@/views/4TwoWayDataBindingDataBinding.vue";
 import ComputedProperties from "@/views/5ComputedProperties.vue";
+import DynamicCSS from "@/views/6DynamicCSS.vue";
 
 Vue.use(Router);
 
@@ -45,6 +46,11 @@ const routes = [
     path: "/basic/computedProperties",
     name: "ComputedProperties",
     component: ComputedProperties
+  },
+  {
+    path: "/basic/dynamicCSS",
+    name: "DynamicCSS",
+    component: DynamicCSS
   }
 ];
 
