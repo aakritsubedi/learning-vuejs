@@ -37,9 +37,9 @@ const routes = [
     component: EventsInVue
   },
   {
-    path: "/basic/dataBinding",
-    name: "DataBinding",
-    component: DataBinding
+    path: "/basic/twoWayDataBinding",
+    name: "TwoWayDataBinding",
+    component: TwoWayDataBinding
   }
 ];
 

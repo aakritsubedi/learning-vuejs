@@ -32,7 +32,7 @@ export default {
         {sn: 2, title: 'Basic: Creating Vue Project', code: '#', link: '/basic/creatingVueProject'},
         {sn: 3, title: 'Basic: Data Binding', code: '#', link:'/basic/dataBinding'},
         {sn: 4, title: 'Basic: Events', code: '#', link:'/basic/eventsInVue'},
-        {sn: 5, title: 'Basic: Two way data binding', code: '#', link:'/basic/dataBinding'}
+        {sn: 5, title: 'Basic: Two way data binding', code: '#', link:'/basic/twoWayDataBinding'}
 
       ]
     }
