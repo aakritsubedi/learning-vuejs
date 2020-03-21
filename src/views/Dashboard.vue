@@ -28,8 +28,9 @@ export default {
   data: function() {
     return {
       contents: [
+        {sn: 1, title: 'Basic: Data & Method', code: '#', link: '/basic/dataAndMethod'},
         {sn: 2, title: 'Basic: Creating Vue Project', code: '#', link: '/basic/creatingVueProject'},
-        {sn: 1, title: 'Basic: Data & Method', code: '#', link: '/basic/dataAndMethod'}
+        {sn: 3, title: 'Basic: Data Binding', code: '#', link:'/basic/dataBinding'}
       ]
     }
   }
