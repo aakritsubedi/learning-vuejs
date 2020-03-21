@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <img alt="Vue logo" src="../assets/logo.png">
     <table class="table table-hover">
       <thead>
@@ -28,8 +28,8 @@ export default {
   data: function() {
     return {
       contents: [
-        {sn: 1, title: 'Basic: Data & Method', code: '#', link: '/basic/dataAndMethod'},
-        {sn: 2, title: 'Basic: Data & Method', code: '#', link: '#'}
+        {sn: 2, title: 'Basic: Creating Vue Project', code: '#', link: '/basic/creatingVueProject'},
+        {sn: 1, title: 'Basic: Data & Method', code: '#', link: '/basic/dataAndMethod'}
       ]
     }
   }
@@ -38,6 +38,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#app {
+  text-align: center;
+}
 h3 {
   margin: 40px 0 0;
 }
