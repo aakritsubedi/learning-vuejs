@@ -4,6 +4,7 @@ import Router from "vue-router";
 import Dashboard from "@/views/Dashboard.vue";
 import DataAndMethod from "@/views/1DataAndMethod.vue";
 import CreateVueProject from "@/views/0CreatingVueProject.vue";
+import DataBinding from "@/views/2DataBinding.vue";
 
 Vue.use(Router);
 
@@ -21,6 +22,11 @@ const routes = [
     path: "/basic/dataAndMethod",
     name: "DataAndMethod",
     component: DataAndMethod
+  },
+  {
+    path: "/basic/dataBinding",
+    name: "DataBinding",
+    component: DataBinding
   }
 ];
 
