@@ -5,6 +5,8 @@ import Dashboard from "@/views/Dashboard.vue";
 import DataAndMethod from "@/views/1DataAndMethod.vue";
 import CreateVueProject from "@/views/0CreatingVueProject.vue";
 import DataBinding from "@/views/2DataBinding.vue";
+import EventsInVue from "@/views/3Events.vue";
+
 
 Vue.use(Router);
 
@@ -27,6 +29,11 @@ const routes = [
     path: "/basic/dataBinding",
     name: "DataBinding",
     component: DataBinding
+  },
+  {
+    path: "/basic/eventsInVue",
+    name: "EventsInVue",
+    component: EventsInVue
   }
 ];
 
