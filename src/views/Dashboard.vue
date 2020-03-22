@@ -28,13 +28,15 @@ export default {
   data: function() {
     return {
       contents: [
-        {sn: 1, title: 'Basic: Data & Method', code: '#', link: '/basic/dataAndMethod'},
-        {sn: 2, title: 'Basic: Creating Vue Project', code: '#', link: '/basic/creatingVueProject'},
+        {sn: 1, title: 'Basic: Creating Vue Project', code: '#', link: '/basic/creatingVueProject'},
+        {sn: 2, title: 'Basic: Data & Method', code: '#', link: '/basic/dataAndMethod'},
         {sn: 3, title: 'Basic: Data Binding', code: '#', link:'/basic/dataBinding'},
         {sn: 4, title: 'Basic: Events', code: '#', link:'/basic/eventsInVue'},
         {sn: 5, title: 'Basic: Two way data binding', code: '#', link:'/basic/twoWayDataBinding'},
         {sn: 6, title: 'Basic: Computed Properties', code: '#', link:'/basic/computedProperties'},
-        {sn: 7, title: 'Basic: Dynamic CSS', code: '#', link:'/basic/dynamicCSS'}
+        {sn: 7, title: 'Basic: Dynamic CSS', code: '#', link:'/basic/dynamicCSS'},
+        {sn: 8, title: 'Basic: Conditionals', code: '#', link:'/basic/conditionals'},
+        {sn: 9, title: 'Project: Boxing Game', code: '#', link:'/project/boxingGame'}
       ]
     }
   }

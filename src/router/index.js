@@ -9,6 +9,8 @@ import EventsInVue from "@/views/3Events.vue";
 import TwoWayDataBinding from "@/views/4TwoWayDataBindingDataBinding.vue";
 import ComputedProperties from "@/views/5ComputedProperties.vue";
 import DynamicCSS from "@/views/6DynamicCSS.vue";
+import Conditional from "@/views/7Conditional.vue";
+import BoxingGame from "@/views/8Game.vue";
 
 Vue.use(Router);
 
@@ -51,6 +53,16 @@ const routes = [
     path: "/basic/dynamicCSS",
     name: "DynamicCSS",
     component: DynamicCSS
+  },
+  {
+    path: "/basic/conditionals",
+    name: "Conditional",
+    component: Conditional
+  },
+  {
+    path: "/project/boxingGame",
+    name: "BoxingGame",
+    component: BoxingGame
   }
 ];
 
