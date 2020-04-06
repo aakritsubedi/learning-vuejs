@@ -36,7 +36,8 @@ export default {
         {sn: 6, title: 'Basic: Computed Properties', code: '#', link:'/basic/computedProperties'},
         {sn: 7, title: 'Basic: Dynamic CSS', code: '#', link:'/basic/dynamicCSS'},
         {sn: 8, title: 'Basic: Conditionals', code: '#', link:'/basic/conditionals'},
-        {sn: 9, title: 'Project: Boxing Game', code: '#', link:'/project/boxingGame'}
+        {sn: 9, title: 'Project: Boxing Game', code: '#', link:'/project/boxingGame'},
+        {sn: 10, title: 'Multiple Vue Instance', code: '#', link:'/intermediate/multipleInstance'}
       ]
     }
   }
