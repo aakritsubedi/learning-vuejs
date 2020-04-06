@@ -11,6 +11,7 @@ import ComputedProperties from "@/views/5ComputedProperties.vue";
 import DynamicCSS from "@/views/6DynamicCSS.vue";
 import Conditional from "@/views/7Conditional.vue";
 import BoxingGame from "@/views/8Game.vue";
+import Components from "@/views/10Components.vue";
 
 Vue.use(Router);
 
@@ -63,6 +64,11 @@ const routes = [
     path: "/project/boxingGame",
     name: "BoxingGame",
     component: BoxingGame
+  },
+  {
+    path: "/intermediate/components",
+    name: "Components",
+    component: Components
   }
 ];
 
