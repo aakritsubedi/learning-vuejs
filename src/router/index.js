@@ -12,6 +12,7 @@ import DynamicCSS from "@/views/6DynamicCSS.vue";
 import Conditional from "@/views/7Conditional.vue";
 import BoxingGame from "@/views/8Game.vue";
 import Components from "@/views/10Components.vue";
+import Refs from "@/views/11Refs.vue";
 
 Vue.use(Router);
 
@@ -69,6 +70,11 @@ const routes = [
     path: "/intermediate/components",
     name: "Components",
     component: Components
+  },
+  {
+    path: "/intermediate/refs",
+    name: "Refs",
+    component: Refs
   }
 ];
 
