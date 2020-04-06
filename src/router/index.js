@@ -13,6 +13,7 @@ import Conditional from "@/views/7Conditional.vue";
 import BoxingGame from "@/views/8Game.vue";
 import Components from "@/views/10Components.vue";
 import Refs from "@/views/11Refs.vue";
+import VueCLI from "@/views/12VueCLI.vue";
 
 Vue.use(Router);
 
@@ -75,6 +76,11 @@ const routes = [
     path: "/intermediate/refs",
     name: "Refs",
     component: Refs
+  },
+  {
+    path: "/vue-cli/intro",
+    name: "VueCLI",
+    component: VueCLI
   }
 ];
 

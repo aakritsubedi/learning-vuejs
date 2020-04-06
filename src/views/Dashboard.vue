@@ -39,7 +39,8 @@ export default {
         {sn: 9, title: 'Project: Boxing Game', code: '#', link:'/project/boxingGame'},
         {sn: 10, title: 'Multiple Vue Instance', code: '#', link:'/intermediate/multipleInstance'},
         {sn: 11, title: 'Components in Vue.js', code: '#', link:'/intermediate/components'},
-        {sn: 12, title: 'Refs in Vue.js ($refs)', code: '#', link:'/intermediate/refs'}
+        {sn: 12, title: 'Refs in Vue.js ($refs)', code: '#', link:'/intermediate/refs'},
+        {sn: 13, title: 'Vue CLI', code:'#', link:'vue-cli/intro'}
       ]
     }
   }
