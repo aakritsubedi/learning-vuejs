@@ -7,9 +7,9 @@
       v-on:click="edu.status = !edu.status"
     >
       <h4>{{edu.school}}</h4>
-      <div v-show="edu.status">
+      <div v-show="edu.status" class="clearfix">
+        <h5 class="float-right">{{edu.year}}</h5>
         <h2>{{edu.degree}}</h2>
-        <h5>{{edu.year}}</h5>
       </div>
     </li>
   </ul>

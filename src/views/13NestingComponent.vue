@@ -5,18 +5,21 @@
     <br>
     <h3 class="text-center" v-on:click="status = !status">My Education</h3>
     <EducationList v-show="this.status" v-bind:myEducation="myEducation" />
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Navigation from '@/components/13Navigation';
 import EducationList from '@/components/13EducationList'
+import Footer from '@/components/13Footer'
 
 export default {
   name: "Nesting_Component",
   components: {
     Navigation,
-    EducationList
+    EducationList,
+    Footer
   },
   data() {
     return {
