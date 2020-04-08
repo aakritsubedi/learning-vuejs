@@ -15,6 +15,7 @@ import Components from "@/views/10Components.vue";
 import Refs from "@/views/11Refs.vue";
 import VueCLI from "@/views/12VueCLI.vue";
 import NestingComponent from "@/views/13NestingComponent";
+import PropTypes from "@/views/14PropTypes";
 
 Vue.use(Router);
 
@@ -87,6 +88,11 @@ const routes = [
     path: "/intermediate/nestingComponent",
     name: "NestingComponent",
     component: NestingComponent
+  },
+  {
+    path: "/intermediate/propsType",
+    name: "PropTypes",
+    component: PropTypes
   }
 ];
 

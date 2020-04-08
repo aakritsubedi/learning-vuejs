@@ -41,7 +41,8 @@ export default {
         {sn: 11, title: 'Components in Vue.js', code: '#', link:'/intermediate/components'},
         {sn: 12, title: 'Refs in Vue.js ($refs)', code: '#', link:'/intermediate/refs'},
         {sn: 13, title: 'Vue CLI', code:'#', link:'vue-cli/intro'},
-        {sn: 14, title: 'Nesting Component, Scoped CSS', code:'#', link:'/intermediate/nestingComponent'}
+        {sn: 14, title: 'Nesting Component, Scoped CSS, Props', code:'#', link:'/intermediate/nestingComponent'},
+        {sn: 15, title: 'Props: Premitive & Reference Types', code:'#', link:'/intermediate/propsType'}
       ]
     }
   }
