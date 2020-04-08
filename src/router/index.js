@@ -14,6 +14,7 @@ import BoxingGame from "@/views/8Game.vue";
 import Components from "@/views/10Components.vue";
 import Refs from "@/views/11Refs.vue";
 import VueCLI from "@/views/12VueCLI.vue";
+import NestingComponent from "@/views/13NestingComponent";
 
 Vue.use(Router);
 
@@ -81,6 +82,11 @@ const routes = [
     path: "/vue-cli/intro",
     name: "VueCLI",
     component: VueCLI
+  },
+  {
+    path: "/intermediate/nestingComponent",
+    name: "NestingComponent",
+    component: NestingComponent
   }
 ];
 
