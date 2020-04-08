@@ -3,8 +3,8 @@
     <h2>{{ title }}</h2>
     <Navigation />
     <br>
-    <h3 class="text-center">My Education</h3>
-    <EducationList v-bind:myEducation="myEducation" />
+    <h3 class="text-center" v-on:click="status = !status">My Education</h3>
+    <EducationList v-show="this.status" v-bind:myEducation="myEducation" />
   </div>
 </template>
 
@@ -22,10 +22,11 @@ export default {
     return {
       title: 'Nesting Components in VueJs',
       myEducation: [
-        {school: 'Paragon Public School', degree: 'SLC', year: '2068 B.S'},
-        {school: 'National School of Sciences (NIST)', degree: '+2 Science', year: '2071 B.S'},
-        {school: 'Kantipur Engineering College', degree: 'B.E Computer', year: '2072 B.S'}
-      ]
+        {school: 'Paragon Public School', degree: 'SLC', year: '2068 B.S', status: true},
+        {school: 'National School of Sciences (NIST)', degree: '+2 Science', year: '2071 B.S', status:true},
+        {school: 'Kantipur Engineering College', degree: 'B.E Computer', year: '2072 B.S', status:true}
+      ],
+      status: true
     }
   }
 }

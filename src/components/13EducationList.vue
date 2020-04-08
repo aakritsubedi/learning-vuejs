@@ -1,9 +1,16 @@
 <template>
   <ul>
-    <li v-for="(edu, index) in myEducation" add v-bind:key="index">
+    <li
+      v-for="(edu, index) in myEducation"
+      add
+      v-bind:key="index"
+      v-on:click="edu.status = !edu.status"
+    >
       <h4>{{edu.school}}</h4>
-      <h2>{{edu.degree}}</h2>
-      <h5>{{edu.year}}</h5>
+      <div v-show="edu.status">
+        <h2>{{edu.degree}}</h2>
+        <h5>{{edu.year}}</h5>
+      </div>
     </li>
   </ul>
 </template>
