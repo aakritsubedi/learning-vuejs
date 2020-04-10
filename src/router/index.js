@@ -16,6 +16,7 @@ import Refs from "@/views/11Refs.vue";
 import VueCLI from "@/views/12VueCLI.vue";
 import NestingComponent from "@/views/13NestingComponent";
 import PropTypes from "@/views/14PropTypes";
+import Event_ChildToParent from "@/views/15EventChild2Parent";
 
 Vue.use(Router);
 
@@ -93,6 +94,11 @@ const routes = [
     path: "/intermediate/propsType",
     name: "PropTypes",
     component: PropTypes
+  },
+  {
+    path: "/event/childToParent",
+    name: "Event_ChildToParent",
+    component: Event_ChildToParent
   }
 ];
 

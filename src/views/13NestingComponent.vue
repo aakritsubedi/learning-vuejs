@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Navigation from '@/components/13Navigation';
-import EducationList from '@/components/13EducationList'
-import Footer from '@/components/13Footer'
+import Navigation from '@/components/13NestingComponent/13Navigation';
+import EducationList from '@/components/13NestingComponent/13EducationList';
+import Footer from '@/components/13NestingComponent/13Footer';
 
 export default {
   name: "Nesting_Component",

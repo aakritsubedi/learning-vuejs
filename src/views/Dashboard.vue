@@ -42,7 +42,8 @@ export default {
         {sn: 12, title: 'Refs in Vue.js ($refs)', code: '#', link:'/intermediate/refs'},
         {sn: 13, title: 'Vue CLI', code:'#', link:'vue-cli/intro'},
         {sn: 14, title: 'Nesting Component, Scoped CSS, Props', code:'#', link:'/intermediate/nestingComponent'},
-        {sn: 15, title: 'Props: Premitive & Reference Types', code:'#', link:'/intermediate/propsType'}
+        {sn: 15, title: 'Props: Premitive & Reference Types', code:'#', link:'/intermediate/propsType'},
+        {sn: 16, title: 'Events: Emit event from Child to Parent', code:'#', link:'/event/childToParent'}
       ]
     }
   }
