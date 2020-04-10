@@ -44,7 +44,8 @@ export default {
         {sn: 14, title: 'Nesting Component, Scoped CSS, Props', code:'#', link:'/intermediate/nestingComponent'},
         {sn: 15, title: 'Props: Premitive & Reference Types', code:'#', link:'/intermediate/propsType'},
         {sn: 16, title: 'Events: Emit event from Child to Parent', code:'#', link:'/event/childToParent'},
-        {sn: 17, title: 'Event: Event Bus', code:'#', link:'/event/eventBus'}
+        {sn: 17, title: 'Event: Event Bus', code:'#', link:'/event/eventBus'},
+        {sn: 18, title: 'Advance: LifeCycle Hooks', code:'#', link:'/advance/lifeCycleHooks'}
       ]
     }
   }

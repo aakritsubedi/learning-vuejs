@@ -18,6 +18,7 @@ import NestingComponent from "@/views/13NestingComponent";
 import PropTypes from "@/views/14PropTypes";
 import Event_ChildToParent from "@/views/15EventChild2Parent";
 import EventBus from "@/views/16EventBus";
+import LifeCycleHooks from "@/views/17LifecycleHooks";
 
 Vue.use(Router);
 
@@ -105,6 +106,11 @@ const routes = [
     path: "/event/eventBus",
     name: "EventBus",
     component: EventBus
+  },
+  {
+    path: "/advance/lifeCycleHooks",
+    name: "LifeCycleHooks",
+    component: LifeCycleHooks
   }
 ];
 
