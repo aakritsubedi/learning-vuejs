@@ -23,6 +23,7 @@ import Slots from "@/views/18Slots";
 import DynamicComponent from "@/views/19DynamicComponent";
 import InputBinding from "@/views/20InputBinding";
 import HTTPRequest from "@/views/21HTTPRequest";
+import CustomDirective from "@/views/22CustomDirective";
 
 Vue.use(Router);
 
@@ -135,6 +136,11 @@ const routes = [
     path: "/advance/httpRequest",
     name: "HTTPRequest",
     component: HTTPRequest
+  },
+  {
+    path: "/advance/customDirective",
+    name: "CustomDirective",
+    component: CustomDirective
   }
 ];
 
