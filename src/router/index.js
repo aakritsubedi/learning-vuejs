@@ -24,6 +24,7 @@ import DynamicComponent from "@/views/19DynamicComponent";
 import InputBinding from "@/views/20InputBinding";
 import HTTPRequest from "@/views/21HTTPRequest";
 import CustomDirective from "@/views/22CustomDirective";
+import Filters from "@/views/23Filters";
 
 Vue.use(Router);
 
@@ -141,6 +142,11 @@ const routes = [
     path: "/advance/customDirective",
     name: "CustomDirective",
     component: CustomDirective
+  },
+  {
+    path: "/advance/filters",
+    name: "Filters",
+    component: Filters
   }
 ];
 

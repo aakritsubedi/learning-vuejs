@@ -20,7 +20,18 @@ Vue.directive('view', {
       el.style.maxWidth = '90%';
     }
   }
-})
+});
+
+// Filters 
+Vue.filter('to-uppercase', value => {
+  return value.toUpperCase();
+});
+
+Vue.filter('snippet', value => {
+  return value.slice(0,100) + '....';
+});
+
+
 
 new Vue({
   router,
