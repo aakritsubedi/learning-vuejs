@@ -47,7 +47,8 @@ export default {
         {sn: 17, title: 'Event: Event Bus', code:'#', link:'/event/eventBus'},
         {sn: 18, title: 'Advance: LifeCycle Hooks', code:'#', link:'/advance/lifeCycleHooks'},
         {sn: 19, title: 'Advance: Slot in VueJs', code:'#', link:'/advance/slots'},
-        {sn: 20, title: 'Advance: Dynamic Component', code:'#', link:'/advance/dynamicComponent'}
+        {sn: 20, title: 'Advance: Dynamic Component', code:'#', link:'/advance/dynamicComponent'},
+        {sn: 21, title: 'Advance: Input Binding (Blog)', code:'#', link:'/advance/inputBinding'}
       ]
     }
   }
