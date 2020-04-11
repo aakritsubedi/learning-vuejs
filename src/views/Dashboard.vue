@@ -14,8 +14,8 @@
         <tr v-for="item in contents" :key="item.sn">
           <td>{{item.sn}}</td>
           <td>{{item.title}}</td>
-          <td><a :href="item.code">Github</a></td>
-          <td><router-link :to="item.link">Demo</router-link></td>
+          <td><a :href="item.code" exact>Github</a></td>
+          <td><router-link :to="item.link" exact>Demo</router-link></td>
         </tr>
       </tbody>
     </table>
@@ -52,7 +52,8 @@ export default {
         {sn: 22, title: 'Advance: HTTP Request using axios',code:'#', link:'/advance/httpRequest'},
         {sn: 23, title: 'Advance: Custom Directive in VueJs',code:'#', link:'/advance/customDirective'},
         {sn: 24, title: 'Advance: Filters in VueJs', code:'#',link:'/advance/filters'},
-        {sn: 25, title: 'Advance: Custom Search Filters in VueJs', code:'#',link:'/advance/customSearchFilter'}
+        {sn: 25, title: 'Advance: Custom Search Filters in VueJs', code:'#',link:'/advance/customSearchFilter'},
+        {sn: 26, title: 'Advance: Mixins', code:'#', link:'/advance/mixins'}
       ]
     }
   }

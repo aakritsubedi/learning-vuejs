@@ -26,6 +26,7 @@ import HTTPRequest from "@/views/21HTTPRequest";
 import CustomDirective from "@/views/22CustomDirective";
 import Filters from "@/views/23Filters";
 import CustomSearchFilter from "@/views/24CustomSearchFilter";
+import Mixins from "@/views/25Mixins";
 
 Vue.use(Router);
 
@@ -153,6 +154,11 @@ const routes = [
     path: "/advance/customSearchFilter",
     name: "CustomSearchFilter",
     component: CustomSearchFilter
+  },
+  {
+    path: "/advance/mixins",
+    name: "Mixins",
+    component: Mixins
   }
   
 ];

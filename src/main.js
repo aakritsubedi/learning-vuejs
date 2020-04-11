@@ -5,6 +5,7 @@ import router from './router';
 Vue.config.productionTip = true
 
 // Custom Directive-Global
+// can add it locally by adding directives property
 Vue.directive('rainbow',{
   bind(el) {
     el.style.color = '#'+ Math.random().toString().slice(2,8);
@@ -23,6 +24,7 @@ Vue.directive('view', {
 });
 
 // Filters 
+// can add it locally by adding filters property
 Vue.filter('to-uppercase', value => {
   return value.toUpperCase();
 });
