@@ -45,7 +45,9 @@ export default {
         {sn: 15, title: 'Props: Premitive & Reference Types', code:'#', link:'/intermediate/propsType'},
         {sn: 16, title: 'Events: Emit event from Child to Parent', code:'#', link:'/event/childToParent'},
         {sn: 17, title: 'Event: Event Bus', code:'#', link:'/event/eventBus'},
-        {sn: 18, title: 'Advance: LifeCycle Hooks', code:'#', link:'/advance/lifeCycleHooks'}
+        {sn: 18, title: 'Advance: LifeCycle Hooks', code:'#', link:'/advance/lifeCycleHooks'},
+        {sn: 19, title: 'Advance: Slot in VueJs', code:'#', link:'/advance/slots'},
+        {sn: 20, title: 'Advance: Dynamic Component', code:'#', link:'/advance/dynamicComponent'}
       ]
     }
   }

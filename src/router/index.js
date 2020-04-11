@@ -19,6 +19,8 @@ import PropTypes from "@/views/14PropTypes";
 import Event_ChildToParent from "@/views/15EventChild2Parent";
 import EventBus from "@/views/16EventBus";
 import LifeCycleHooks from "@/views/17LifecycleHooks";
+import Slots from "@/views/18Slots";
+import DynamicComponent from "@/views/19DynamicComponent";
 
 Vue.use(Router);
 
@@ -111,6 +113,16 @@ const routes = [
     path: "/advance/lifeCycleHooks",
     name: "LifeCycleHooks",
     component: LifeCycleHooks
+  },
+  {
+    path: "/advance/slots",
+    name: "Slots",
+    component: Slots
+  },
+  {
+    path: "/advance/dynamicComponent",
+    name: "DynamicComponent",
+    component: DynamicComponent
   }
 ];
 
