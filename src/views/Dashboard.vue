@@ -51,7 +51,8 @@ export default {
         {sn: 21, title: 'Advance: Input Binding (Blog)', code:'#', link:'/advance/inputBinding'},
         {sn: 22, title: 'Advance: HTTP Request using axios',code:'#', link:'/advance/httpRequest'},
         {sn: 23, title: 'Advance: Custom Directive in VueJs',code:'#', link:'/advance/customDirective'},
-        {sn: 24, title: 'Advance: Filters in VueJs', code:'#',link:'/advance/filters'}
+        {sn: 24, title: 'Advance: Filters in VueJs', code:'#',link:'/advance/filters'},
+        {sn: 25, title: 'Advance: Custom Search Filters in VueJs', code:'#',link:'/advance/customSearchFilter'}
       ]
     }
   }

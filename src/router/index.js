@@ -25,6 +25,7 @@ import InputBinding from "@/views/20InputBinding";
 import HTTPRequest from "@/views/21HTTPRequest";
 import CustomDirective from "@/views/22CustomDirective";
 import Filters from "@/views/23Filters";
+import CustomSearchFilter from "@/views/24CustomSearchFilter";
 
 Vue.use(Router);
 
@@ -147,7 +148,13 @@ const routes = [
     path: "/advance/filters",
     name: "Filters",
     component: Filters
+  },
+  {
+    path: "/advance/customSearchFilter",
+    name: "CustomSearchFilter",
+    component: CustomSearchFilter
   }
+  
 ];
 
 export default new Router({
