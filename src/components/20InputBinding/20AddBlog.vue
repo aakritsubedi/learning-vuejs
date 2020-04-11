@@ -43,6 +43,12 @@
               <input type="checkbox" value="Fun" v-model="blog.categories" />
               <label for="personal">Fun</label>
             </div>
+            <div class="form-group" id="blog-author">
+              <label for="author">Author</label>
+              <select v-model="blog.author" class="form-control">
+                <option v-for="author in authors" :key="author">{{ author }}</option>
+              </select>
+            </div>
           </form>
         </div>
         <div class="col-md-7" id="preview">
@@ -52,6 +58,7 @@
           <ul id="preview-categories">
             <li v-for="category in blog.categories" v-bind:key="category">{{ category }}</li>
           </ul>
+          <span class="float-right">{{blog.author}}</span>
         </div>
       </div>
     </div>
@@ -66,8 +73,10 @@ export default {
       blog: {
         title: "",
         content: "",
-        categories: []
-      }
+        categories: [],
+        author: ""
+      },
+      authors: ['AAkrit Subedi', 'The Net Ninja', 'Traversy Media', 'The newBostron']
     };
   }
 };
@@ -84,7 +93,7 @@ export default {
   float: left;
   width: auto;
   margin: 0 5px;
-  padding: 2px 4px;
+  padding: 2px 8px;
   border: 1px solid #2C3335;
 }
 #preview-categories li:hover {
