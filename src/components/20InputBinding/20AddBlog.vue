@@ -49,10 +49,15 @@
                 <option v-for="author in authors" :key="author">{{ author }}</option>
               </select>
             </div>
+            <div class="form-group">
+              <label for="title">Date:</label>
+              <input type="date" class="form-control" v-model.lazy="blog.date" required />
+            </div>
           </form>
         </div>
-        <div class="col-md-7" id="preview">
+        <div class="col-md-7 clearfix" id="preview">
           <h4 class="font-weight-bold">Preview Blog</h4>
+          <span class="float-right">{{blog.date}}</span>
           <h3>{{ blog.title }}</h3>
           <p id="blog-content">{{ blog.content }}</p>
           <ul id="preview-categories">
@@ -74,9 +79,15 @@ export default {
         title: "",
         content: "",
         categories: [],
-        author: ""
+        author: "",
+        date: ""
       },
-      authors: ['AAkrit Subedi', 'The Net Ninja', 'Traversy Media', 'The newBostron']
+      authors: [
+        "AAkrit Subedi",
+        "The Net Ninja",
+        "Traversy Media",
+        "The newBostron"
+      ]
     };
   }
 };
@@ -94,12 +105,12 @@ export default {
   width: auto;
   margin: 0 5px;
   padding: 2px 8px;
-  border: 1px solid #2C3335;
+  border: 1px solid #2c3335;
 }
 #preview-categories li:hover {
   color: #ffffff;
-  background-color: #2C3335;
-  border: 1px dotted #DAE0E2;
+  background-color: #2c3335;
+  border: 1px dotted #dae0e2;
 }
 
 #blog-content {
