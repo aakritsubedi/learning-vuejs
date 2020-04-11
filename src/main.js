@@ -12,7 +12,7 @@ Vue.directive('rainbow',{
 });
 
 Vue.directive('view', {
-  bind(el, binding) {
+  update(el, binding) {
     if(binding.value === 'mobile'){ 
       el.style.maxWidth = '45%';
     }
