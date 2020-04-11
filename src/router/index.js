@@ -22,6 +22,7 @@ import LifeCycleHooks from "@/views/17LifecycleHooks";
 import Slots from "@/views/18Slots";
 import DynamicComponent from "@/views/19DynamicComponent";
 import InputBinding from "@/views/20InputBinding";
+import HTTPRequest from "@/views/21HTTPRequest";
 
 Vue.use(Router);
 
@@ -129,6 +130,11 @@ const routes = [
     path: "/advance/inputBinding",
     name: "InputBinding",
     component: InputBinding
+  },
+  {
+    path: "/advance/httpRequest",
+    name: "HTTPRequest",
+    component: HTTPRequest
   }
 ];
 
