@@ -25,7 +25,7 @@
               <br />
               <span class="h3">My age is {{age}}</span>
               <br />
-              <button v-on:click="add(1)">Add 1</button>
+              <button @click="add(1)">Add 1</button>
               <button v-on:dblclick="sub(1)">Subtract 1</button>
               <button v-on:click="add(10)">Add 10</button>
               <button v-on:dblclick="sub(10)">Subtract 10</button>
