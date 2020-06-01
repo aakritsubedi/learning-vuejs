@@ -36,3 +36,9 @@
     <a href="https://cli.vuejs.org/guide/installation.html" target="_blank">ReadMore...</a>
   </div>
 </template>
+
+<script>
+export default {
+  name: "VueProject"
+}
+</script>
